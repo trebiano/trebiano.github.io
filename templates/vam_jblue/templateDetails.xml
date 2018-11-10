@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="template">
+    <name>vam_jblue</name>
+    <version>1.0.1</version>
+    <creationDate>04/10/06</creationDate>
+    <author>rhuk</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>Copyright 2006 - RocketTheme.com</copyright>
+    <license>GNU/GPL</license>
+    <description>
+    <![CDATA[
+<h3>Vam_Jblue</h3>
+
+This template is based on a sample templates available from the RocketTheme Template Club (RTTC). For other great templates please check out <a href="http://www.rockettheme.com">rockettheme.com</a>.
+]]>
+    </description>
+    <files>
+        <filename>css/index.html</filename>
+        <filename>css/template_css.css</filename>
+        <filename>images/arrow.png</filename>
+        <filename>images/sc_bullet_orange.png</filename>
+        <filename>images/sc_footer_bg.png</filename>
+        <filename>images/sc_greybox_large_b.png</filename>
+        <filename>images/sc_greybox_large_t.png</filename>
+        <filename>images/sc_greybox_small_b.png</filename>
+        <filename>images/sc_greybox_small_t.png</filename>
+        <filename>images/sc_header.jpg</filename>
+        <filename>images/sc_menu.png</filename>
+        <filename>images/sc_newsflash_b.png</filename>
+        <filename>images/sc_newsflash_m.png</filename>
+        <filename>images/sc_newsflash_t.png</filename>
+        <filename>images/sc_orange_bar_top.png</filename>
+        <filename>images/sc_seperator_horiz.png</filename>
+        <filename>images/sc_seperator_vert.png</filename>
+        <filename>images/sc_shadow_b.png</filename>
+        <filename>images/sc_shadow_bl.png</filename>
+        <filename>images/sc_shadow_br.png</filename>
+        <filename>images/sc_shadow_l.png</filename>
+        <filename>images/sc_shadow_r.png</filename>
+        <filename>images/sc_tab_active.png</filename>
+        <filename>images/sc_tab_normal.png</filename>
+        <filename>images/sc_tabbar_bg.png</filename>
+        <filename>images/sc_title.png</filename>
+        <filename>images/spacer.png</filename>
+        <filename>index.php</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_thumbnail.png</filename>
+    </files>
+    <params />
+</mosinstall>

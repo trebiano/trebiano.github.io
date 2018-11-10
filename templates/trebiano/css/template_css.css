@@ -1,0 +1,1231 @@
+/* ---------------------
+basic layout
+--------------------- */
+body{text-align: center;}
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+
+.waterbody {
+	/*background:#CCCCCC url(../images/trebiano_bg_body.jpg) repeat-x left top; background-size: 100%;*/
+	text-align: center;
+	margin:0;
+	color:#333333;
+	background-attachment: scroll;
+	background-image: url(../images/trebiano_bg_body.jpg);
+	background-color:#cccccc;
+	background-repeat: repeat-x;
+	background-position: left top;
+	
+}
+
+div,
+td,
+p {
+	font-size:12px;
+	line-height:18px;
+	color:#333333;
+}
+
+a,
+a:link,
+a:active,
+a:visited {
+	text-decoration:underline;
+	color:#ff9900;
+}
+
+a:hover {
+	text-decoration:underline;
+	color:#ff9900;
+}
+
+ul.contenuti{
+	text-align:left;
+	margin: 5px;
+	padding: 5px;
+	list-style: none;
+	list-style-type: square;
+}
+
+ul {
+	margin: 5px;
+	padding: 5px;
+	list-style: none;
+	list-style-type: square;
+}
+
+li {
+	line-height: 18px;
+	padding-left: 5px;
+	padding-top: 0px;
+	list-style-position: inside;
+}
+
+
+
+/* --------------------- Template Layout --------------------- */
+
+/** Contenitore principale per centrare la pagina **/
+#container {
+	width:932px;
+	margin: 2px auto;
+	padding:0;
+	text-align: left;
+}
+
+/**
+hold background, it should be float:left
+that's way we can not put it in #container
+**/
+#containerbg {
+	position:relative;
+	width: 932px;
+background:#FFFFFF; /*url(../images/trebiano_bg_body2.jpg) repeat-x left top;*/
+
+	float:left;
+	top:0;
+	left:0;
+}
+
+#outerleft {
+	position:relative;
+	float:left;
+	clear:left;
+	width:932px;
+	
+}
+
+#outerright {
+	position:relative;
+	width:170px;
+	float:right;
+	clear:right;
+}
+
+#logo {
+	position:relative;
+	width:100%;
+	height:84px;
+	float:left;
+	background:#FFFFFF url(../images/trebiano_bg_header.jpg) no-repeat left top;
+
+}
+
+#logo_link {
+	position: absolute;
+	width:260px;
+	height:124px;
+	margin-left:20px;
+	margin-top: 10px;
+	float:left;
+    cursor: hand;
+}
+
+/** div container for top menu. position:top **/
+#topmenu {
+	position:relative;
+	float:left;
+	clear:left;
+	background-color:#000000;
+	width: 100%;
+	
+}
+
+/** div container for image header **/
+#imgheader {
+	position:relative;
+	float:left;
+	clear:left;
+	width:100%;
+	height:100%;
+	background-color: #ffffff;
+}
+
+#servizi_internet_la_spezia {
+	position:relative;
+	clear:left;
+	width:932px;
+	
+	
+	
+}
+
+/** div container for left column **/
+#leftcol {
+	position:relative;
+	float:left;
+	clear:left;
+	width:596px;
+	
+    margin-left : 15px;
+
+}
+
+/* IE6 Only */
+* html #leftcol {
+    position:relative;
+	float:left;
+	clear:left;
+	width:596px;
+margin-left : 0px;
+}
+
+#leftcolmenu {
+	position:relative;
+	background:transparent url(../images/bg_leftcol.jpg) repeat-y left top;
+	overflow:auto;
+}
+
+
+/** div wrapper for user2 & user3 **/
+#content_top_wrapper {
+	position:relative;
+	float:right;
+	clear:right;
+	width:621px;
+	display:inline;
+	margin: 0 0 0 0;
+}
+
+/** div container for position:user2 **/
+#content_top1 {
+	position:relative;
+	float:left;
+	clear:left;
+	width:310px;
+} 
+
+/** div container for position:user3 **/
+#rightcol {
+	position:relative;
+	
+	clear:right;
+	width:280px;
+	height:100%;
+		float: left; margin: 0px 0px 0px 0px;  /*border-right: thin dotted #00cc00;*/ background: url(../images/dot_trebiano_e_business.gif) repeat-y; background-position: left;
+		padding-left:20px;
+		padding-right:10px;
+}
+
+/** div container for mainbody **/
+#content_main {
+	position:relative;
+	float:left;
+	width:520px;
+	margin:0 0 0 0;
+	background-color:#FFFFFF;
+}
+
+
+
+
+/** div container for banner position:banner **/
+#banner {
+	position:relative;
+	clear:left;
+	float:left;
+	width:515px;
+	height:65px;
+	min-height:65px;
+	color:#FFFFFF;
+	font-size:10px;
+	padding: 20px 0 0 215px;
+}
+
+#blackline {
+	position:relative;
+	clear:left;
+	float:left;
+	width:932px;;
+	height:10px;
+	min-height:10px;
+	background-color: #000000;
+	color:#FFFFFF;
+	font-size:10px;
+}
+
+/** copyright **/
+
+#copyright {
+
+	width:932px;
+	height:264px;
+
+
+	color:#666666;
+	font-size:8px;
+	font-weight:normal;
+}
+
+
+
+
+#copyright div {
+	background: #FFFFFF url(../images/trebiano_bg_bottom_grey.jpg) no-repeat bottom center;
+
+}
+
+
+
+
+/* ---------------------
+mambo content layout
+--------------------- */
+
+/** pathway block **/
+span.pathway {
+	display:block;
+	text-align:left;
+	color:#000000;
+	font-size:10px;
+	font-weight:bold;
+
+	height:10px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+/** content title **/
+.componentheading {
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	color:#FF9900;
+	text-transform:uppercase;
+	font-size: 16px;
+	line-height:25px;
+	padding: 5px 0 5px 0;
+	display:block;
+	font-weight:bold;
+}
+
+.contentheading,
+.contentpagetitle,
+a.contentpagetitle:link,
+a.contentpagetitle:active,
+a.contentpagetitle:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#ff9900;
+	font-weight: bold;
+	padding-top: 10px;
+	background-color:inherit;
+	display:block;
+}
+
+.contentpaneopen {
+	width:100%;
+	align:center;
+
+}
+
+
+/** pdf, printer version, and email to friend button **/
+.buttonheading {
+	width: 16px!important;
+	text-align:right;
+}
+
+.sectiontableheader {
+	font-weight: bold;
+	color:#000000;
+	
+}
+
+.category, .categorytitle {
+	font-weight: bold;
+	color:#000000;
+	background-color:inherit;
+}
+
+.sectiontableentry1,
+table.pollstableborder tr.sectiontableentry1 {
+	background-color: #EFEFEF;
+	padding: 2px;
+	color:#333333;
+}
+
+.sectiontableentry2,
+table.pollstableborder tr.sectiontableentry2 {
+	background-color: #FFFFFF;
+	padding: 2px;
+	color:#333333;
+}
+
+/** blog Styles **/
+.blogsection {
+	color:#3973AC;
+	background-color:inherit;
+}
+
+.blog_more {
+	font-weight: bold;
+	line-height: 25px;
+	padding-top: 20px;
+	color: #ff9900;
+	border-bottom: 1px solid #E5E5E5;
+	background-color:inherit;
+}
+
+/** small text in content **/
+.small {
+	color:#999999;
+	font-size:10px;
+	font-weight: bold;
+
+}
+
+.small a:link,
+.small a:active,
+.small a:visited {
+color:#999999;
+	font-size:10px;
+	font-weight: bold;
+}
+
+
+/** date info in content **/
+#content_main .createdate {
+	color:#ff9900;
+	font-size:8px;
+	padding: 0 0 15px 0;
+	line-height:8px;
+	background-color:inherit;
+}
+
+#content_main .modifydate {
+	color:#999999;
+	font-size:10px;
+	padding: 0;
+	background-color:inherit;
+}
+
+/** toc page navigation  **/
+.pagenav_prev,
+.pagenav_next {
+	font-size:11px;
+}
+
+
+/** content item navigation  **/
+.pagenavbar  {
+	display:block;
+	width:100%;
+	background-color:inherit;
+	height:20px;
+	line-height:25px;
+	text-align:right;
+	letter-spacing:2px;
+	color:#999999!important;
+	clear:both;
+	font-size: 11px!important;
+	margin-top: 10px;
+	background-image: url(../images/bg_pagenav.jpg);
+	background-repeat: repeat-x;
+	background-position: center bottom;	
+}
+
+.pagenav {
+	height:20px;
+	line-height:25px;
+	text-align:right;
+	letter-spacing:2px;
+	color:#999999;
+	clear:both;
+	font-size: 11px;
+	margin-left: 0;
+	margin-right: 0;
+	background-color:inherit;
+}
+
+.back_button {
+	display:block;
+	text-align:left;
+	font-weight:bold;
+	font-size:12px;
+	width:100%;
+	margin-bottom:10px;
+	letter-spacing:2px;
+}
+
+/** highlight word search result **/
+.highlight {
+	font-weight:bold;
+	background-color: #FFFF00;
+	padding: 2px 0 2px 0;
+	
+}
+
+/** table of content layout **/
+table.contenttoc {
+	border:1px solid #000000;
+	padding:1px;
+	width:130px;
+	margin: 0 0 10px 10px;
+}
+
+/** table of content header **/
+.contenttoc th {
+	color:#FFFFFF;
+	background-color:#666666;
+	font-size:11px;
+	display:block;
+	width:124px;
+}
+
+/** unordered list for latest news module **/
+ul.latestnews li,ul.mostread li {
+	line-height: 18px;
+	font-size:11px;
+	font-weight:bold;
+	list-style-type: none;
+	list-style-position: outside;
+}
+
+
+/** fix opera table width for content list in table category**/
+table.contentpane td.contentdescription {
+	width:100%!important;
+	
+}
+
+table.studio_trebiano {
+	position:relative;
+	background:transparent url(http://www.trebiano.it/images/stories/studio_trebiano.jpg) no-repeat right top;
+	overflow:auto;
+}
+
+
+/* ---------------------
+Links
+--------------------- */
+
+/** any left column link **/
+
+
+a.pagenav:link ,
+a.pagenav_next:link,
+a.pagenav_pre:link,
+div.back_button a,
+div.back_button a:link,
+a.latestnews:link,
+a.latestnews:active,
+a.latestnews:visited,
+a.mostread:link,
+a.mostread:active,
+a.mostread:visited {
+	text-decoration:none;
+}
+
+/*** read more link ***/
+.readon,
+a.readon:link,
+a.readon:active,
+a.readon:visited {
+	color:#666666;
+	font-weight:bold;
+	text-align:left;
+	margin-top:10px;
+	letter-spacing: 2px;
+	font-size:10px;
+	text-decoration:none;
+}
+
+/*** blog links ***/
+a.blogsection:link,
+a.blogsection:active,
+a.blogsection:visited {
+	color:#ff9900;
+	text-decoration:none;
+}
+
+/** generic menu item link **/
+a.mainlevel:link,
+a.mainlevel:active,
+a.mainlevel:visited,
+a.sublevel:link,
+a.sublevel:active,
+a.sublevel:visited {
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:11px;
+	line-height: 28px;
+}
+
+/** generic menu item link on mouseover **/
+a.mainlevel:hover,
+#leftcol a.mainlevel:hover {
+	background-color:#484848;
+	color:#FFFFFF!important;
+	text-decoration:none!important;
+}
+
+/** specific top right column menu item link **/
+a.mainlevel-right:link,
+a.mainlevel-right:active,
+a.mainlevel-right:visited,
+a.sublevel-right:link,
+a.sublevel-right:active,
+a.sublevel-right:visited {
+	color:#000000;
+	text-decoration:none;
+	font-size:11px;
+}
+
+/** specific top right column menu item link on mouseover **/
+a.mainlevel-right:hover {
+	background-color:#CCCCCC;
+	text-decoration:none;
+}
+
+
+/** pathway link item **/
+a.pathway:link,
+a.pathway:link,
+a.pathway:active,
+a.pathway:visited {
+	color:#999999;
+	text-decoration:none;
+}
+
+/** table of content list **/
+a.toclink:link,
+a.toclink:active,
+a.toclink:visited {
+	color:#3973AC;
+	font-size:11px;
+	padding:2px 10px 2px 10px;
+	display:block;
+	text-decoration:none;
+}
+
+.pagenavbar a:link,
+.pagenavbar a:active,
+.pagenavbar a:visited  {
+	letter-spacing:2px;
+	color:#000000;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.pagenavbar a:hover {
+	color:#ff9900;
+}
+
+/** latestnews and popular **/
+.latestnews,
+.mostread {
+	color:#000000;
+}
+
+a.latestnews:link,
+.mostread a:link,
+.latestnews a:active,
+.mostread a:active,
+.latestnews a:hover,
+.mostread a:hover,
+.latestnews a:visited,
+.mostread a:visited {
+	color:#000000;
+	text-decoration:underline;
+}
+
+/** underline on hover **/
+a.toclink:hover,
+a.latestnews:hover,
+a.mostread:hover,
+a.pathway:hover,
+a.sublevel:hover,
+a.sublevel-right:hover,
+a.blogsection:hover,
+a.readon:hover,
+a.pagenav:hover ,
+a.pagenav_next:hover,
+a.pagenav_pre:hover,
+a.latestnews:hover {
+	text-decoration:underline;
+	color:#ff9900;
+	background-color:inherit;
+}
+
+
+
+
+/* ---------------------
+mambo module layout
+--------------------- */
+
+/** general module table **/
+table.moduletable,
+
+#rightcol table {
+width:280px;
+	float:left;
+	clear:left;
+}
+#leftcol table {
+
+/** margin-right:10px ;  altrimenti problema nel blog lato destro con IE6**/
+    
+	float:left;
+	clear:left;
+}
+
+
+/** general module title **/
+table.moduletable th,
+table.moduletable-bgimg th,
+table.moduletable-right th {
+	border: 1px solid #000000;	
+	color:#FFFFFF;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	line-height:20px;
+	background-color:#484848;
+	height:25px;
+	text-align:left;
+	padding-left:15px;
+	font-weight:normal;
+}
+
+/** specific module td table for content top 1 and 2. 
+position:user2 an user3 **/
+#content_top1 table.moduletable td,
+#rightcol table.moduletable td {
+	/*background:transparent url(../images/bg_module_contenttop.jpg) no-repeat center bottom;*/
+	
+	vertical-align:top;
+	
+
+}
+
+
+
+/** generic menu item **/
+.mainlevel  {
+	display:block;
+	font: bold 11px/25px Arial, Helvetica, sans-serif !important;
+	padding-left:15px;
+	background:transparent url(../images/bg_mainlevel.gif) repeat-x center top;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+/** specific left column form **/
+#leftcol form {
+	margin-left:15px;
+}
+
+/** specific left column form 
+#leftcol .button {
+	font-size:11px;
+	color:#FFFFFF;
+	background-color:#585858;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #888888;
+	border-top: 1px solid #888888;
+	width:140px;
+}**/
+
+
+/** specific left column form **/
+#leftcol .inputbox {
+	font-size:11px;
+	font-weight: bold;
+}
+
+/** module styles in #leftcol **/
+#leftcol table.moduletable td {
+	color:#DADADA;
+	font-size:11px;
+}
+
+/** search div in top right column. position:user4 **/
+div.search {
+	margin-left:10px;
+}
+
+/** search field in search div **/
+.search .inputbox {
+	width:130px;
+	border: 1px solid #000000;
+}
+
+/* ---------------------
+mambo form layout
+--------------------- */
+
+/** left column input form **/
+#leftcol .inputbox {
+	font-size:11px;
+	width:300px;
+	/*border: 1px solid #000000;*/
+	margin-bottom:2px;
+}
+
+/** input button html tag 
+.button,
+{
+	font-size:11px;
+	text-transform:uppercase;
+	color:#666666;
+	font-weight:bold;
+	background-color:#CCCCCC;
+	border-top: 1px solid #FFFFFF;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+	border-left: 1px solid #FFFFFF;
+}**/
+
+
+
+.search  {
+	margin-top:30px;
+}
+
+
+
+/* 
+mambo top menu layout
+you need to add menu class suffix: -nav
+*/
+
+/** unordered list top menu **/
+ul#mainlevel-nav
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.8em;
+}
+
+/** unordered list item for top menu **/
+ul#mainlevel-nav li
+{
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	float: right;
+	margin: 0;
+	width: auto !important;
+	font-size: 11px;
+	line-height: 20px;
+	white-space: nowrap;
+	
+}
+
+/** unordered list item link for top menu **/
+ul#mainlevel-nav li a
+{
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom:5px;
+	text-decoration: none;
+	
+	color: #CCCCCC;
+	font-weight: normal;
+	letter-spacing:2px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+
+	
+	
+	
+	
+	
+	
+}
+
+/** unordered list item link for top menu for firefox only **/
+#topmenu>ul#mainlevel-nav li a {
+	width: auto;
+}
+
+/** ----- Stile di Topmenu al passaggio del mouse (hover) ----- **/
+ul#mainlevel-nav li a:hover {
+	text-decoration:none;
+	color:#ff9900;
+	background: url(../images/freccia_top_menu.gif) no-repeat 0 50%;
+}
+
+
+ /*
+specific right column menu item. position:right
+you need to add menu class suffix: -right and
+module class suffix: -right
+ */
+.mainlevel-right {
+	display:block;
+	height:25px;
+	line-height:25px;
+	padding-left:15px;
+	background:#EEF0F0 url(../images/bg_mainlevel_right.gif) repeat-x center top;
+	font-weight:bold;
+}
+
+/** 
+moduletable specific with background image
+you need to add modules class suffix: -bgimg
+ **/
+table.moduletable-bgimg {
+	background:transparent url(../images/bg_module.jpg) no-repeat center bottom;
+	float:left;
+	clear:left;
+	width:100%;
+}
+
+table.moduletable-bgimg td {
+	padding: 5px ;
+	font-size:11px;
+}
+
+table.moduletable-bgimg td td {
+	padding: 0!important;
+}
+
+/** for polls **/
+.poll {
+	font-size:11px;
+	line-height: 16px;
+}
+
+table.pollstableborder .sectiontableentry2 {
+	background-color:transparent; 
+	text-align:left; 
+}
+table.pollstableborder .sectiontableentry1 {
+	background-color:#F5F5F5; 
+	text-align:left;
+}
+
+.moduletable_bgimg table.pollstableborder td.sectiontableentry2,
+.moduletable_bgimg table.pollstableborder td.sectiontableentry1 {
+	background-color:transparent!important; 
+	text-align:left!important; 
+}
+
+
+#bottompadding	{
+	position:relative;
+	width:100%;
+
+	height:74px;
+    background:#FFFFFF url(../images/trebiano_bg_bottom.jpg) no-repeat center bottom;
+}
+
+/*AGGIUNTE MIE*/
+h1 { font-family: Helvetica, Arial, Verdana, sans-serif; font-weight: bold; letter-spacing: .05em; margin: 0; text-align: center; font-size: 9px; padding: 0 0 0 0; ;color:#FF9900; text-transform:uppercase;}
+
+h2 { font-family: Helvetica, Arial, Verdana, sans-serif; letter-spacing: .01em; margin: 0; font-size: 9px; padding: 0 0 0 0; ;color:#cccccc;}
+
+h3 { font-family: Helvetica, Arial, Verdana, sans-serif; font-weight: bold; letter-spacing: .01em; margin: 0; line-height: 1em; text-align: left; font-size: 16px; padding: 5px 0 5px 0; ;color:#FF9900;}
+
+h4 { font-family: Helvetica, Arial, Verdana, sans-serif; font-weight: bold; letter-spacing: .01em; margin: 0; line-height: 1em; text-align: left; font-size: 16px; padding: 5px 0 0px 0; ;color:#FF9900;}
+
+h5 { font-family: Helvetica, Arial, Verdana, sans-serif; font-weight: bold; letter-spacing: .01em; margin: 0; line-height: 1em; text-align: left; font-size: 16px; padding: 0 0 0 0; ;color:#FF9900;}
+
+
+
+.img-shadow {
+  float:left;
+  background: url(../images/shadowAlpha.png) no-repeat bottom right !important;
+  background: url(../images/shadow.gif) no-repeat bottom right;
+  margin: 8px 5px 0 10px !important;
+  
+  }
+
+.img-shadow img {
+  display: block;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #a9a9a9;
+  margin: -6px 6px 6px -6px;
+  padding: 0px;
+  } 
+  
+/* -------------------- PROVA ADVERTISINGAGE ------------------------------*/
+  
+
+
+/*----- MORE --------*/
+/* "READ MORE" global link style */
+
+strong.more {
+	display: block;
+	margin: 2px 0 10px 0;
+	padding: 0;
+	font-weight: normal;
+	text-align: left;
+}
+strong.more a {
+	padding: 0 0 0 13px;
+	font-size: 90%;
+	line-height: 1.4em;
+	text-decoration: none;
+	background: url(../images/trebiano_servizi_internet_arrow.gif) no-repeat 0 50%;
+	color:#ff9900;
+}
+strong.more a:hover {
+	text-decoration: underline;
+}
+
+strong.more a:visited {
+	text-decoration: unnone;
+	color:#ff9900;
+}
+	
+
+#box_servizi_internet_foto {
+    width: 30%;
+	float: left;
+}
+
+#box_servizi_internet_content {
+    width: 60%;
+	float: left;
+	
+}
+	
+
+hr  {color: #ff9900;
+background-color: #ff9900;
+height: 1px;
+}	
+
+#footer {
+	position:relative;
+	background:transparent url(../images/bg_bottom_grey.jpg) repeat-y left top;
+	overflow:auto;
+}
+
+strong.more2 {
+	display: block;
+	margin: 2px 0 10px 0;
+	padding: 0;
+	font-weight: bold;
+	text-align: left;
+}
+strong.more2 a {
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	color:#ff9900;
+}
+strong.more2 a:hover {
+	text-decoration: underline;
+}
+
+strong.more2 a:visited {
+	text-decoration: none;
+	colr:#ff9900;
+}
+
+strong.more2 a:active {
+	text-decoration: underline;
+	colr:#ff9900;
+}
+
+/*------ link FARE BUSINESS CON IL WEB ------*/
+
+strong.more3 {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+}
+strong.more3 a {
+	text-decoration: none;
+}
+strong.more3 a:hover {
+	text-decoration: underline;
+}
+
+strong.more3 a:visited {
+	text-decoration: none;
+	colr:#ff9900;
+}
+
+strong.more3 a:active {
+	text-decoration: underline;
+	colr:#ff9900;
+}
+
+/* ------- Box angoli stondati -------*/
+div#nifty{ margin-left:15px; margin-right:15px; background: #dddddd}
+
+b.rtop, b.rbottom{display:block;background: #FFF}
+b.rtop b, b.rbottom b{display:block;height: 1px;
+    overflow: hidden; background: #dddddd}
+b.r1{margin: 0 5px}
+b.r2{margin: 0 3px}
+b.r3{margin: 0 2px}
+b.rtop b.r4, b.rbottom b.r4{margin: 0 1px;height: 2px
+}
+
+#moscontactform_text, #moscontactform_email, #moscontactform_name {
+width: 246px;
+}
+/* ------------------------------------------------------------------- */
+div#box_grigi{ margin-left:10px; margin-right:10px; background: #dddddd; padding-bottom:10px; padding-top:10px; padding-left:15px; padding-right:15px;}
+div#box_grigi2{ margin-left:0px; margin-right:0px; background: url(../images/studio_trebiano_intro_bkg.jpg) no-repeat top; padding-bottom:0px; padding-top:0px; padding-left:30px; padding-right:30px;}
+
+
+div#box_arancioni{ width:250px; padding-bottom:1px; padding-top:1px; padding-left:15px; padding-right:15px; background-image:url(../images/bg_box_contatti.jpg); border: solid 1px #cccccc;}
+
+div#box_celesti {
+width:250px;
+height:248px;
+padding-bottom:1px;
+padding-top:1px;
+padding-left:15px;
+padding-right:15px;
+margin-top:15px;
+background-image:url(../images/bg_box_celeste.jpg);
+background-color:#67cbff;
+border: 1px solid #999999;
+
+}
+
+
+/*table#immobiliari{ padding-bottom:10px; padding-top:10px;}*/
+div#casa_celeste{ padding-right:35px; padding-top:8px;}
+
+
+div#box_giallini_stage{ padding-bottom:1px; padding-top:1px; padding-left:15px; padding-right:15px; background-image:url(../images/bg_box_stage.jpg);}
+
+div#box_giallini_lavoro{ padding-bottom:1px; padding-top:1px; padding-left:15px; padding-right:15px; background-image:url(../images/bg_box_lavoro.jpg); width:550px;}
+/*---------------------*/
+ol li.casetta {
+background-image: url(../images/casa_seo_immobiliare2.jpg);
+}
+
+
+/* -------- Stile elenco numerato FARE BUSINESS CON INTERNET -------- */
+ol {
+list-style-type: none;
+}
+ol li {
+
+background: no-repeat ;
+
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 0px;
+list-style-position: outside;
+padding: 4px 8px 0px 40px;
+
+}
+
+ol li.step1 {
+background-image: url(../images/01_fare_business.gif);
+}
+ol li.step2 {
+background-image: url(../images/02_fare_business.gif);
+}
+ol li.step3 {
+background-image: url(../images/03_fare_business.gif);
+}
+ol li.step4 {
+background-image: url(../images/04_fare_business.gif);
+}
+ol li.step5 {
+background-image: url(../images/05_fare_business.gif);
+}
+ol li.step6 {
+background-image: url(../images/06_fare_business.gif);
+}
+ol li.step7 {
+background-image: url(../images/07_fare_business.gif);
+}
+ol li.step8 {
+background-image: url(../images/08_fare_business.gif);
+}
+ol li.step9 {
+background-image: url(../images/09_fare_business.gif);
+}
+ol li.step10 {
+background-image: url(../images/10_fare_business.gif);
+}
+
+#box_fare_business_num {
+}
+
+
+/* ----- Testo piccolo sul fondo (Privcy & C.) ----- */
+.small2 {
+	color:#333333;
+	font-size:9px;
+	font-weight: bold;
+
+}
+
+.small2 a:link,
+.small2 a:active,
+.small2 a:visited {
+color:#333333;
+	font-size:9px;
+	font-weight: bold;
+}
+.small3 {
+	color:#ff9900;
+	font-size:12px;
+	font-weight: bold;
+	letter-spacing:3px;
+
+}
+
+.small3 a:link,
+.small3 a:active,
+.small3 a:visited {
+color:#333333;
+	font-size:12px;
+	font-weight: bold;
+}
+
+.small4 {
+	color:#333333;
+	font-size:12px;
+
+
+}
+
+.small4 a:link,
+.small4 a:active,
+.small4 a:visited {
+color:#333333;
+font-size:12px;
+
+}
+
+/* ----- Box Parole chiave Bottom ----- */
+div#box_bottom{ margin-bottom:0px; margin-top:30px; margin-left:15px; margin-right:15px; background:none; border: 1px solid #999999; padding:5px; height:75px;}
+
+/* ----- Box Parole chiave Bottom AdSense----- */
+div#box_bottom_2{ margin-bottom:6px; margin-top:24px; margin-left:15px; margin-right:15px; background:none; padding:5px; height:75px;}
+
+/* ------- Link Sezioni Servizi Principali ----------- */
+
+
+strong.titoli_neri a {
+text-decoration:none;
+color:#000000;
+font-size:16px;
+}
+strong.titoli_neri a:active {
+text-decoration:none;
+color:#000000;
+font-size:16px;
+}
+strong.titoli_neri a:visited {
+text-decoration:none;
+color:#000000;
+font-size:16px;
+}
+strong.titoli_neri a:hover {
+text-decoration:underline;
+color:#ff9900;
+font-size:16px;
+}
+
+strong.lettere_distanziate {
+letter-spacing:1px;
+}

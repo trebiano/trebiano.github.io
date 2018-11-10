@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="template" version="4.5.3">
+	<name>Trebiano E-Business Partner</name>
+	<creationDate>16/07/07</creationDate>
+	<author>Trebiano E-Business Partner</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>trebiano@gmail.com</authorEmail>
+	<authorUrl>http://www.trebiano.it</authorUrl>
+	<version>1.0</version>
+	<description>Il template Trebiano E-Business Partner è ottimizzato per una risoluzione di 1024px </description>
+	<files>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+	</files>
+	<images>
+		<filename>images/bg_body.jpg</filename>
+		<filename>images/bg_header.jpg</filename>
+		<filename>images/bg_inside.jpg</filename>
+		<filename>images/bg_leftcol.jpg</filename>
+		<filename>images/bg_mainlevel.gif</filename>
+		<filename>images/bg_mainlevel_right.gif</filename>
+		<filename>images/bg_module.jpg</filename>
+		<filename>images/bg_module_contenttop.jpg</filename>
+		<filename>images/bg_pagenav.jpg</filename>
+		<filename>images/bg_spacer.gif</filename>
+		<filename>images/bg_topright.jpg</filename>
+		<filename>images/img_header.jpg</filename>
+		<filename>images/indent1.png</filename>
+		<filename>images/indent2.png</filename>
+		<filename>images/indent3.png</filename>
+		<filename>images/indent4.png</filename>
+		<filename>images/indent5.png</filename>
+		<filename>images/indent6.png</filename>
+		<filename>images/logo.gif</filename>
+		</images>
+	<css>
+		<filename>css/template_css.css</filename>
+	</css>
+</mosinstall>
