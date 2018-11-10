@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rss version="2.0">
+	<channel>
+		<title>Trebiano E-Business Blog</title>
+		<description>Internet, marketing, comunicazione... e dintorni</description>
+		<link>http://www.trebiano.it</link>
+		<lastBuildDate>Thu, 01 Mar 2018 19:22:54 +0100</lastBuildDate>
+		<generator>FeedCreator 1.7.2</generator>
+		<image>
+			<url>http://www.trebiano.it/images/M_images/joomla_rss.png</url>
+			<title>Blog by Trebiano E-Business Partner</title>
+			<link>http://www.trebiano.it</link>
+			<description>Internet, marketing, comunicazione... e dintorni</description>
+		</image>
+	</channel>
+</rss>
