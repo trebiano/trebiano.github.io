@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Joomla Tags</name>
+  <author>A. Kempkens For And On Behalf Of Blue Flame IT Ltd.</author>
+  <version>1.0</version>
+  <description>Definition for the extension Joomla! Ttags by Blue Flame ltd.</description>
+  <reference>
+  	<table name="tag_tags">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="tagname" translate="1">Tag name</field>
+  		<field type="htmltext" name="desc" translate="1">Description</field>
+  		<field type="textarea" name="meta_keywords"  rows="5" columns="80" translate="1">Meta Keywords</field>
+  		<field type="text" name="tagtext" translate="1">Tag text</field>
+  		<field type="text" name="meta_title" length="50" maxlength="255" translate="1">Meta title</field>
+  		<field type="textarea" name="meta_desc"  rows="5" columns="80" translate="1">Meta Description</field>
+  		<field type="textarea" name="meta_keywords"  rows="5" columns="80" translate="1">Meta Keywords</field>
+  		<field type="checked_out_by" name="checked_out" translate="0">Check out by</field>
+  		<field type="checked_out_date" name="checked_out_time" translate="0">Check out date</field>
+  	</table>
+  </reference>
+</joomfish>

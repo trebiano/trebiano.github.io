@@ -1,0 +1,121 @@
+body{
+margin:0pt;
+padding:0pt;
+}
+a.bfsmaller {
+font-size: 10px;
+}
+
+span.bullet-tag, li.bullet-tag {
+ color:#0B55C4;
+ font-family:Verdana;
+ margin-bottom:10px;
+ padding-left:20px;
+ background:url(view/images/bullet-tag_green.gif) no-repeat left center;
+}
+
+a.tagslink, a:visited.tagslink {
+ color:#ff9900;
+ font-weight: normal;
+ text-decoration:none;
+}
+
+a.add {
+ color:#0B55C4;
+ font-family:Verdana;
+ margin-bottom:10px;
+ margin-left: 5px;
+ padding-left:15px;
+ background:url(view/images/bullet-add.png) no-repeat left center;
+}
+
+input.tagaddbox {
+width: 99%;
+border: 2px solid #AEC4E2;
+}
+
+a.add-new-tag {
+ color:#0B55C4;
+ font-family:Verdana;
+ margin-bottom:10px;
+ padding-left:20px;
+ background:url(view/images/bullet-tag_blue_add.gif) no-repeat left center;
+}
+
+.clearer{
+clear:both;
+}
+
+div.add-tag-div{
+padding: 10px;
+display: none;
+}
+
+.bfinputbox {
+background:#FFFFFF url(view/images/inputbox.png) repeat-x scroll 0%;
+border:1px solid #666666;
+color:#333333;
+font-family:Tahoma,Helvetica,sans-serif;
+font-size:11px;
+margin-bottom:2px;
+padding:3px 8px;
+}
+
+li.bullet-article {
+ margin-bottom:5px;
+ padding-left:20px;
+ line-height: 20px !important;
+ background:url(view/images/page.gif) no-repeat left top;
+ list-style-position: outside;
+ list-style-type: none;
+
+}
+
+.fs16{
+ font-size: 16px;
+}
+
+/* Tag cloud page x*/
+#TagCloud, p.jumpbox, .TagCloud {
+background: #FFFFFF none repeat scroll 0%;
+border: 1px solid #999999;
+margin-right: 10px;
+padding:15px;
+text-align: left;
+font-family:Arial,Helvetica,sans-serif;
+line-height: 200%;
+}
+div.col-left{
+width: 45%;
+float: left;
+padding:5px;
+text-align: left;
+}
+div.col-right{
+width: 45%;
+float: right;
+padding:5px;
+text-align: left;
+}
+.TagCloud a:link, .TagCloud a:visited {
+color:#ff9900;
+font-weight: normal;
+text-decoration:none;
+}
+.TagCloud a:hover {
+background:#ff9900 none repeat scroll 0%;
+color:#FFFFFF;
+text-decoration:none;
+font-weight: normal;
+}
+.TagCloud a {
+text-decoration:none;
+padding: 5px;
+}
+
+#bf_tagdesc{
+padding-left: 40px;
+padding-top: 10px;
+padding-bottom: 20px;
+text-align: left;
+}

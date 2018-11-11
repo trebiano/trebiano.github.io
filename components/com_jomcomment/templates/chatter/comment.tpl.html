@@ -1,0 +1,29 @@
+<?php if($debugview):?>
+<link href="comment_style.css" rel="stylesheet" type="text/css" />
+<?php endif;?>
+
+<?php foreach($comments as $comment): ?>
+
+<?php echo $comment->adminPanel; ?>
+<div class="CommentArea" id="pc_<?php echo $comment->id; ?>" >
+			<h4 class="CommentTitle">
+				<a id="author-<?php echo $comment->id; ?>" title="<?php echo $comment->name; ?>"><?php echo $comment->name; ?></a> 
+				said:
+				<img src="images/spacer.gif" alt="" class="CommentArrow"  style="vertical-align:bottom;" />			</h4>
+				<div class="CommentText">
+					<div class="CommentText2">
+						<div class="CommentText3">
+						    <table width="98%" border="0" cellspacing="0" cellpadding="0">
+	                  <tr>
+	                      <td valign="top"><?php echo $comment->gravatar; ?>&nbsp;</td>
+	                      <td width="100%" valign="top"  id="comment-text-container-<?php echo $comment->id; ?>"><?php echo $comment->comment; ?></td>
+	                  </tr>
+	              </table>
+					    </div>
+					</div>		
+		</div>
+	<div class="CommentFooter">
+	<?php echo $comment->date; ?><?php if($comment->website):?> | <a href="<?php echo $comment->website; ?>" target="_blank"> url </a><?php endif;?>
+</div>
+</div>
+<?php endforeach; ?>

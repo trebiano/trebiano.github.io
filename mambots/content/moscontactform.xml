@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="mambot" group="content">
+	<name>Contact Form</name>
+	<author>Nathaniel Trevivian</author>
+	<creationDate>April 2007</creationDate>
+	<copyright>(C) 2007 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>nathanandjoy@gmail.com	</authorEmail>
+	<authorUrl>www.thefuse.info</authorUrl>
+	<version>1.0.0</version>
+	<description>Inserts a contact form for a given {contactform} content insertion</description>
+	<files>
+		<filename mambot="moscontactform">moscontactform.php</filename>
+		<filename>moscontactform/moscontactform_submit.php</filename>
+		<filename>moscontactform/moscontactform.js</filename>
+		<filename>moscontactform/prototype.js</filename>
+		<filename>moscontactform/effects.js</filename>
+		<filename>moscontactform/loader.gif</filename>
+	</files>
+</mosinstall>

@@ -1,0 +1,173 @@
+div.commentBlogView{
+	display:block;
+	text-align: right;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-top: 4px;
+    margin-bottom: 4px;
+	clear:both;
+}
+
+div.show-comment, div.show-linkmore, div.show-hit,  div.show-feed {
+	display:inline;
+	float:right;
+	height:18px;
+	text-indent: 24px;
+	margin-left: 4px;
+	margin-right: 4px;
+	background-repeat:no-repeat;
+	background-position: 0 50%;
+	background-image:url(images/comments.gif);
+}
+
+div.show-comment{
+	background-image:url(images/comments.gif);
+}
+div.show-linkmore {
+	background-image:url(images/page_go.gif);
+}
+div.show-hit{
+	background-image:url(images/chart_bar.gif);
+}
+
+div.show-feed{
+	width:18px;
+	background-image:none;
+}
+
+.jomauthor {
+    background-color: #F5F5C1;
+    border-bottom: 1px solid #FFDE00;
+    background-image:none;
+}
+
+#jc_commentsDiv blockquote {
+  color: #747474; 
+  padding-left: 30px;
+}
+
+.avatarImg{
+	display:block;
+	padding: 6px;
+}
+
+.avatarImg img{
+	border:1px solid #ddd
+}
+
+#jc_name, #jc_website, #jc_email, #jc_title, #jc_comment, #jc_password
+{
+	width: 98%;
+	padding: 4px;
+	margin: 0ex;
+}
+
+#jc_name, #jc_website, #jc_email, #jc_password
+{
+	width: 50%;
+}
+
+#jc_commentForm{
+    padding-top: 2px;
+    padding-bottom: 6px;
+}
+
+
+#jc_commentForm label{
+    font-weight:bold;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+#jc_commentForm button, #jc_captchaImg{
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+.CommentArea{
+	margin: 8px 4px 8px 0px;
+	width: 100%;
+	display:block;
+}
+
+.CommentTitle{
+	margin-bottom: 6px;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+.CommentArrow
+{
+	background-image: url(images/comment-arrow.gif);
+	background-repeat: no-repeat;
+	width: 14px;
+	height: 14px;
+	margin-bottom: -7px;
+}
+
+
+.CommentText{
+	padding-bottom: 3px;
+	background-image: url(images/comment-shadow.gif);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+.CommentText blockquote {
+  color: #747474; 
+  padding-left: 30px;
+  
+}
+
+.CommentText2
+{
+	border: solid 1px #bcbcbc;
+	padding: 3px;
+}
+
+.CommentText3{
+	padding: 5px;
+	font-size: .9em;
+}
+
+.CommentFooter{
+	margin-top: 4px;
+	font-size: 80%;
+	color: #666666;
+	padding-left: 16px;
+}
+
+/* Trackbacks */
+#trackback_link, #feed_link
+{
+	height:16px;
+	vertical-align:middle;
+	text-align:left;
+	cursor:pointer;
+	font-size:90%;
+}
+
+#trackback_link a, #feed_link a
+{
+	border-bottom:dashed 1px #CACACA;
+}
+
+#trackback_link img, #feed_link img
+{
+	vertical-align:middle;
+	padding-right:2px;
+	padding-left:2px;
+}
+
+#comment_title
+{
+	margin-top:20px;
+	margin-bottom:8px;
+}
+
+
+#written_comments_title
+{
+	margin-top:14px;
+}

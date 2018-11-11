@@ -1,0 +1,170 @@
+div.comment-text
+{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div.commentBlogView
+{
+	display:block;
+	text-align: left;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-top: 4px;
+  margin-bottom: 4px;
+	clear:both;
+}
+
+div.show-comment, div.show-linkmore, div.show-hit, div.show-feed
+{
+	display:inline;
+	float:left;
+	height:18px;
+	text-indent: 24px;
+	margin-left: 4px;
+	margin-right: 4px;
+	background-repeat:no-repeat;
+	background-position: 0 50%;
+	background-image:url(images/comments.gif);
+}
+
+div.show-comment
+{
+	background-image:url(images/comments.gif);
+}
+
+div.show-linkmore
+{
+	background-image:url(images/page_go.gif);
+}
+
+div.show-hit{
+	background-image:url(images/chart_bar.gif);
+}
+
+div.show-feed
+{
+	width:18px;
+	background-image:none;
+}
+
+.jomentry1, .jomentry2 , #jc_commentFormDiv
+{
+	border-bottom: 1px solid #ddd;
+	padding: 8px 4px;
+	background-repeat:repeat-x;
+	background-position:top;
+	
+}
+
+.jomentry1 blockquote, .jomentry2 blockquote
+{
+	margin: 10px;
+	padding-left: 5px;
+	border-left: 5px solid #ddd;
+}
+
+.jomentry1
+{		
+		color:#000000;
+    background-color: #F2F2F2;
+    /*background-image:url(images/topshade1.gif);*/
+}
+.jomentry2 , #jc_commentFormDiv
+{
+		color:#000000;
+    background-color: #F6F6F6;
+    /*background-image:url(images/topshade2.gif);*/
+}
+
+.jomauthor
+{
+		color:inherit;
+    background-color: #F5F5C1;
+    border-bottom: 1px solid #FFDE00;
+    background-image:none;
+}
+
+#jc_commentsDiv blockquote
+{
+  color: #747474;
+	background-color:inherit;
+  padding-left: 30px;
+}
+
+#write_comment_title
+{
+	margin-top:14px;
+}
+
+.avatarImg
+{
+	float: right;
+	padding: 2px;
+}
+
+.avatarImg img
+{
+	border:1px solid #ddd
+}
+
+#jc_name, #jc_website, #jc_email, #jc_title, #jc_comment, #jc_password
+{
+	width: 98%;
+	padding: 4px;
+	margin: 0ex;
+}
+
+#jc_name, #jc_website, #jc_email, #jc_password
+{
+	width: 50%;
+}
+
+#jc_commentForm
+{
+    padding-top: 2px;
+    padding-bottom: 6px;
+}
+
+
+#jc_commentForm label
+{
+    font-weight:bold;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+#jc_commentForm button, #jc_captchaImg
+{
+    margin-top: 6px;
+    margin-bottom: 4px;
+}
+
+/* Trackbacks */
+#trackback_link, #feed_link
+{
+	height:16px;
+	vertical-align:middle;
+	text-align:left;
+	cursor:pointer;
+	font-size:90%;
+}
+
+#trackback_link a, #feed_link a
+{
+	border-bottom:dashed 1px #CACACA;
+}
+
+#trackback_link img, #feed_link img
+{
+	vertical-align:middle;
+	padding-right:2px;
+	padding-left:2px;
+}
+
+#write_comment_heading
+{
+	margin-top:20px;
+	margin-bottom:30px;
+}

@@ -1,0 +1,126 @@
+div.commentBlogView{
+	display:block;
+	text-align: right;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	margin-top: 4px;
+    margin-bottom: 4px;
+	clear:both;
+}
+
+div.show-comment, div.show-linkmore , div.show-hit{
+	display:inline;
+    float:right;
+    height:18px;
+    text-indent: 24px;
+    margin-left: 4px;
+    margin-right: 4px;
+    background-repeat:no-repeat;
+	background-position: 0 50%;
+	background-image:url(images/comments.gif);
+}
+
+div.show-comment{
+	background-image:url(images/comments.gif);
+}
+div.show-linkmore {
+	background-image:url(images/page_go.gif);
+}
+div.show-hit{
+	background-image:url(images/chart_bar.gif);
+}
+
+.jomentry1, .jomentry2{
+	margin: 1ex 2ex;
+	padding: 0 1ex;
+	border: 1px dotted #999;
+}
+
+.jomentry1 blockquote, .jomentry2 blockquote {
+	margin: 10px;
+	padding-left: 5px;
+	border-left: 5px solid #ddd;
+}
+
+.jomentry1
+{
+	background-color:inherit;
+	border:1px solid #fff;
+}
+
+.jomentry2
+{
+	background-color:#F7FBCD;
+	border:1px solid #E1EA92;
+}
+
+.jomauthor {
+	background-color: #EEF3BE;
+	background-image:none;
+	border: medium solid #CCCC00;
+} 
+
+div.bCommentTitle {
+	margin: 1ex 0;
+	font-weight: bold;
+}
+div.bCommentText {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+div.bCommentSmallPrint {
+	clear: both;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 80%;
+	margin: 1ex 0;
+}
+
+.avatarImg{
+	float: right;
+	padding: 2px;
+	clear:none;
+}
+.avatarImg img{
+	border:1px solid #ddd
+}
+#jc_name, #jc_website, #jc_email, #jc_title, #jc_comment, #jc_password
+{
+	background-color: #FCFFE1;
+	border: 1px solid #dfee91;
+	width: 98%;
+	padding: 4px;
+	margin: 0ex;
+}
+
+#jc_name, #jc_website, #jc_email, #jc_password
+{
+	width: 50%;
+}
+
+#jc_name:focus, #jc_website:focus, #jc_email:focus, #jc_title:focus, #jc_comment:focus, #jc_password:focus
+{
+	border: 1px solid #bfdc21;
+}
+
+#jc_commentsDiv blockquote {
+  color: #747474; 
+  padding-left: 30px;
+}
+
+#jc_commentForm{
+    padding-top: 2px;
+    padding-bottom: 6px;
+}
+
+
+#jc_commentForm label{
+    font-weight:bold;
+    padding-top: 6px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+#jc_commentForm button, #jc_captchaImg{
+    margin-top: 6px;
+    margin-bottom: 4px;
+}

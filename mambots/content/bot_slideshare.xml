@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="mambot" group="content">
+	<name>slideshare</name>
+	<author>ot2sen</author>
+	<creationDate>05 June 2007</creationDate>
+	<copyright>2007 Ole Bang Ottosen</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@ot2sen.com</authorEmail>
+	<authorUrl>www.ot2sen.dk</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+<div style="background-color: rgb(255, 255, 255);">
+This mambot let you include slideshare presentations inside your content pages.
+<br />
+<strong>How to use:</strong> <br />
+<br />
+Example: <br /><br />
+Grab the "Embed in wordpress.com" code and then only use the <font color="#FF0000">text marked red</font> between your
+{slideshare}text marked red goes here{/slideshare} tags.<br />Example of embed code: 
+[slideshare <font color="#FF0000">id=60206&doc=phpbootcamp-joomla-framework-22883&w=425</font>]
+</div>
+]]>
+</description>
+<description>Mambot to include slideshare presentations</description>
+	<files>
+		<filename mambot="bot_slideshare">bot_slideshare.php</filename>
+	</files>
+</mosinstall>

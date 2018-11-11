@@ -1,0 +1,25 @@
+#
+#  mod_rewrite in use
+#
+
+RewriteEngine On
+
+#  Uncomment following line if you get 403 Forbidden Error
+
+#Options +FollowSymLinks
+
+#  Uncomment following line if your webserver's URL 
+#  is not directly related to physival file paths.
+#  Update YourMamboDirectory (just / for root)
+
+#RewriteBase /YourMamboDirectory
+
+#
+#  Rules
+#
+
+#RewriteCond %{REQUEST_URI} ^(/component/option,com) [NC,OR]
+RewriteCond %{REQUEST_FILENAME} !\.(jpg|jpeg|gif|png|css|js|pl|txt)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*) index.php

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="1.0.0" type="mambot" group="system">
+	<name>Azrul System Mambot For Joomla</name>
+	<author>Azrul</author>
+	<creationDate>Jan 2007</creationDate>
+	<copyright>(C) 2007 PocketCraft Software Sbdn. Bhd. All rights reserved.</copyright>
+	<license>GNU / Open Source</license>
+	<authorEmail>support@azrul.com</authorEmail>
+	<authorUrl>www.azrul.com</authorUrl>
+	<version>1.8</version>
+	<description><![CDATA[
+	System Mambots for Joomla, Azrul.com
+	]]></description>
+	<files>
+		<filename mambot="azrul.system">azrul.system.php</filename>
+		<filename>/pc_includes/ajax.php</filename>
+		<filename>/pc_includes/JSON.php</filename>
+		<filename>/pc_includes/template.php</filename>
+		<filename>/pc_includes/ajax.js.php</filename>
+	</files>
+	<params>
+		<param name="compress" type="list" default="1" label="Compress JavaScript" description="Do you want to compress the JavaScript?. Reduce bandwidth use by half.">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+	</params>
+</mosinstall>

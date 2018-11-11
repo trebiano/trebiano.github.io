@@ -1,0 +1,16 @@
+<?php if($debugview):?>
+<link href="comment_style.css" rel="stylesheet" type="text/css" />
+<?php endif;?>
+<?php if($show['readmore'] || $show['comment']): ?>
+<div class="commentBlogView"> 
+	<?php if($show['readmore']): ?>
+    	<div class="show-linkmore"> <a href="<?php echo $link['readmore']; ?>"> _JC_TPL_READMORE </a> </div> 
+    <?php endif; ?>
+	<?php if($show['comment']): ?>
+    	<div class="show-comment"> <a href="<?php echo $link['comment']; ?>"> _JC_TPL_ADDCOMMENT (<?php echo $count['comment'];?>)</a> </div> 
+    <?php endif; ?>
+    <?php if($show['hit']): ?>
+    	<div class="show-hit"><a href="<?php echo $link['comment']; ?>">Hits: <?php echo $count['hit'];?> </a></div> 
+    <?php endif; ?>
+</div>
+<?php endif; ?>

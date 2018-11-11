@@ -1,0 +1,16 @@
+<?php if($debugview):?>
+<link href="comment_style.css" rel="stylesheet" type="text/css" />
+<?php endif;?>
+<?php if($comments) foreach($comments as $comment): ?>
+<div id="pc_<?php echo $comment->id; ?>" class="<?php echo $comment->style; ?>" onmouseover=""> <?php echo $comment->adminPanel; ?> <?php echo $comment->gravatar; ?>  <b><?php echo $comment->title; ?></b>
+<br/> 
+    
+		<span class="small">_JC_TPL_WRITTEN_BY <?php if($comment->website): ?><a href="<?php echo $comment->website; ?>" target="_blank"><?php echo $comment->name; ?></a><?php else: ?><?php echo $comment->name; ?><?php endif;?> , <?php echo $comment->date; ?></span>
+		<br/><br /> 
+    <span id="comment-text-container-<?php echo $comment->id; ?>"><?php echo $comment->comment; ?> </span><br /> 
+    <br /> 
+</div> 
+<?php endforeach; ?>
+
+
+

@@ -1,0 +1,15 @@
+<?php if($debugview):?>
+<link href="comment_style.css" rel="stylesheet" type="text/css" />
+<?php endif;?>
+<?php if($comments) foreach($comments as $comment): ?>
+<div class="<?php echo $comment->style; ?>"  id="pc_<?php echo $comment->id; ?>" ><?php echo $comment->adminPanel; ?>
+			<div class="bCommentTitle">
+			<?php echo $comment->gravatar; ?> <?php echo $comment->name; ?>: <?php echo $comment->title; ?> <?php if($comment->website) : ?> <a href="<?php echo $comment->website; ?>" target="_blank"><?php echo $comment->website; ?></a><?php endif;?></div>
+			<div class="bCommentText">
+				<span id="comment-text-container-<?php echo $comment->id; ?>"><?php echo $comment->comment; ?></span><div style="float:right; clear:none; vertical-align:bottom; font-size:36px; color:#E1EA92; font-style:italic"><?php echo $comment->itemNum; ?></div><br/>
+			</div>
+			<div class="bCommentSmallPrint">
+			<?php echo $comment->date; ?></div>
+</div>
+<?php endforeach; ?>
+
